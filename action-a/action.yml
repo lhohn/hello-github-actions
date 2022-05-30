@@ -1,14 +1,14 @@
-name: "Hello GitHub Actions"
+name: "Hello Actions"
 description: "Greet someone"
-author: "me"
+author: "octocat@github.com"
 
 inputs:
   MY_NAME:
     description: "Who to greet"
     required: true
     default: "World"
-   
- runs:
+
+runs:
   using: "docker"
   image: "Dockerfile"
 
